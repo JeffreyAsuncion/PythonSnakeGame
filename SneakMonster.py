@@ -179,9 +179,9 @@ def main():
     width = 500
     rows = 20
     win = pygame.display.set_mode((width, width))
-    s = SneakMonster((0,192,0), (10,10))
-    s1 = SneakMonster((0,192,0), (15,15))  
-    s2 = SneakMonster((0,192,0), (5,5))  
+    s = SneakMonster((100,192,50), (10,10))
+    s1 = SneakMonster((100,192,50), (15,15))  
+    s2 = SneakMonster((100,192,50), (5,5))  
           # my addition#####################################################
     snack = jewel(randomSnack(rows, s), color=(255,255,0))
     
